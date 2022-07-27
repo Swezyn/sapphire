@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--bg);
+  color: var(--text-color);
+
+  margin-top: var(--nav-size);
+}
+
+:root {
+
+  color-scheme: light dark;
+
+  --bg: #ddd;
+  --bg-alt: #aaa;
+  --bg-accent: rgb(164, 164, 164);
+  --accent: #A20A08;
+  --accent-hover: #A20A08;
+  --text-color: #0e0e0e;
+  --text-color-dark: #0e0e0e;
+  --text-color-light: #dadce1;
+  --nav-color: #fff;
+  --nav-size: 60px;
+  --footer-color: #aaa;
+  --border: 1px solid #999;
+  --border-radius: 0.5rem;
+  --speed: 250ms;
+}
+
+:root.dark-mode {
+  --bg: #17171E;
+  --bg-alt: #222229;
+  --bg-accent: #2C2C33;
+  --text-color: #dadce1;
+  --text-color-dark: #71747b;
+  --nav-color: #17171E;
+  --footer-color: #101014;
+  --border: 1px solid #474a4d;
+}
+
+.MuiInputBase-root {
+  background-color: var(--bg-accent);
+  border-radius: var(--border-radius) !important;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  ;
+}

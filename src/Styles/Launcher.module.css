@@ -1,0 +1,89 @@
+.container{
+    width: 100%;
+    min-height: 80vh;
+}
+
+.bar{
+    width: 100%;
+    height: 20vw;
+    min-height: 300px;
+    background-color: var(--bg-alt);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:
+  0px 8.3px 2.8px rgba(0, 0, 0, 0.02),
+  0px 20px 6.7px rgba(0, 0, 0, 0.028),
+  0px 37.6px 12.5px rgba(0, 0, 0, 0.035),
+  0px 67px 22.3px rgba(0, 0, 0, 0.042),
+  0px 125.3px 41.8px rgba(0, 0, 0, 0.05),
+  0px 300px 100px rgba(0, 0, 0, 0.07)
+;
+
+}
+
+.bar h1{
+    margin-top: 5vh;
+    font-size: 7vh;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #1D71B8;
+    color: var(--accent);
+}
+
+.bar h2{
+    font-size: 3vh;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-bottom: 5vh;
+}
+
+.bar h3{
+    margin: 4vh 0 4vh;
+    font-size: 1.5vh;
+    font-weight: 400;
+}
+
+.bar .banner{
+    width: 45vw;
+    aspect-ratio: 16/9;
+    border-radius: var(--border-radius);
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+
+.bar .banner img{
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius);
+    object-fit: cover;
+}
+
+.desc{
+    margin-top: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc button{
+    margin-top: 3vh;
+}
+
+@media (max-width: 1080px){
+    .bar .banner{
+        width: 75vw;
+    }
+
+    .desc{
+        margin-top: 40vw;
+    }
+}

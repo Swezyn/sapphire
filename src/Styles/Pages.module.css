@@ -1,0 +1,19 @@
+.columncontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header{
+    text-align: center;
+    margin: 5rem 0 3rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+}

@@ -1,0 +1,19 @@
+.playbutton{
+    all: unset;
+    width: 12rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-color);
+    border-radius: var(--border-radius);
+    transition: var(--speed);
+    cursor: pointer;
+    color: var(--bg);
+    font-weight: 700;
+}
+
+.playbutton:hover{
+    transition: var(--speed);
+    width: 13rem;
+}
